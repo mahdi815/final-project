@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.products .card{
+  transition: all 0.5s ease;
+  width:300px;
+  max-width: 400px;
+  max-height: 500px;
+  min-height: 499px;
+  margin: 10px;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 00.5);
+}
+.product-cnt {
+width: auto;
+}
+.new-arrivals {
+  background-color: #ADD8E6	;
+  border-radius: 15px;
+  margin-inline: 20px;
+}
+.a-client {
+  background-color:  #FFE7BA;
+  border-radius: 15px;
+  margin-inline: 20px;
+}
+.shop-us {
+  background-color:  #ADD8E6;
+  border-radius: 15px;
+  margin-inline: 20px;
+}
+.p-box{
+  text-align: justify;
+  margin-inline: 5px;
+}
+.products {
+  margin-left: 100px;
+}
