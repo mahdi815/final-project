@@ -13,11 +13,13 @@ import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import Productscomponent from './components/Productscomponent';
 import Checkout from './components/Checkout';
+import Footer from './components/Footer'
+
 
 
 function App() {
   return (
-    <>
+    <div>
     <NavBar/>
     <Routes>
         <Route path='/signup' element={<Signup/>} />
@@ -31,9 +33,9 @@ function App() {
         <Route  path='/contact' element={<Contact/>}/>
         <Route  path='/about' element={<About/>}/>
         <Route  path='/Productscomponent' element={<Productscomponent/>}/>
-
     </Routes>
-    </>
+    <Footer/>
+    </div>
   );
 }
 
